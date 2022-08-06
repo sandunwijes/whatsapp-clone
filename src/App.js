@@ -10,7 +10,7 @@ function App() {
       
       <div className="app__body">
 
-        <h1>body</h1>
+
         <Sidebar/>
         <Chat/>
       </div>
