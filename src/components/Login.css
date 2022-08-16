@@ -6,24 +6,21 @@
     place-items: center;
 }
 
-.login__container{
+.login_container{
     padding: 100px;
     text-align: center;
-    align-items: center;
     background-color: white;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12); 
 }
 
-.login__container>img{
+.login_container > img{
     object-fit: contain;
     height: 100px;
     margin-bottom: 40px;
-
 }
 
-.login__container>button{
+.login_container > button{
     margin-top: 50px;
     text-transform: inherit !important;
     background-color: #0a8d48 !important;

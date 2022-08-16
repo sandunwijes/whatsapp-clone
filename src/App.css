@@ -1,16 +1,14 @@
-.App {
-  display: grid;
-  place-items:center;
-  background-color: #d6d3db;
-  height: 100vh;
+.app{
+    display: grid;
+    place-items: center;    
+    background-color: #dadbd3;
+    height: 100vh;
 }
-
-.app__body{
-  display: flex;
-  background-color: #ededed;
-  margin-top: -50px;
-  height: 90vh;
-  width: 75vw;
-
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+.app_body{
+    display: flex;
+    background-color: #ededed;
+    height: 90vh;
+    width: 90vw;
+    margin-top: -50px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
 }
